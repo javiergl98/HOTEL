@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>reserva</title>
+</head>
+<body>
+    <h1>Haga su reserva</h1>
+    <form action="procesarreserva.php" method="get"></form>
+    <fieldset>
+      
+        <legend>Datos de su estancia</legend>
+        <fieldset>
+            <legend>Rellene sus datos</legend>
+        Nombre <input  type="text">
+        <br>
+        Apellidos <input type="text">
+        <br>
+        DNI <input type="number" maxlength="10"></fieldset>
+        <br>
+       HABITACIÓN 
+       <br> 
+       Individual<input type="radio" name="room"> 
+       Doble<input type="radio" name="room"> 
+       Triple<input type="radio"name="room">
+       <br>
+
+      Número de personas <select name="Num" id="num">Número de personas
+       <option value="1">1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+    </select>
+    <br>
+    Mascotas <input type="checkbox">
+    <br>
+    Fecha de llegada <input type="date" ><br>
+    Hora de llegada <input type="time"><br> </fieldset></form>
+    <input type="submit">
+    <input type="reset">
+
+   <a href="index.html.html">Volver</a>
+
+</body>
+</html>
